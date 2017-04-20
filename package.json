@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.config.babel.js",
+    "build": "webpack --config ./config/webpack.config.babel.js",
     "test": "jest"
   },
   "jest": {

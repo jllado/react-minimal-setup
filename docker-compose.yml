@@ -1,0 +1,7 @@
+version: '2'
+services:
+  react-setup:
+    build: .
+    ports:
+        - "4000:80"
+    restart: always
